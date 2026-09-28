@@ -1,0 +1,16 @@
+title: Revenue Ops LLC Salesforce & RevOps Resources
+description: Practical Salesforce, Revenue Operations, Agentforce, data governance, automation, and CRM resources from Revenue Ops LLC.
+url: https://revopsllc.github.io
+baseurl: /salesforce-revenue-operations-resources
+
+theme: jekyll-theme-cayman
+
+show_downloads: false
+
+github:
+  is_project_page: true
+  repository_url: https://github.com/RevOpsLLC/salesforce-revenue-operations-resources
+
+author:
+  name: Revenue Ops LLC
+  url: https://www.revenueopsllc.com/
