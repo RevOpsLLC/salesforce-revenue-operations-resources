@@ -2,328 +2,379 @@
 
 Practical Salesforce, Revenue Operations, automation, data, and AI resources from [Revenue Ops LLC](https://www.revenueopsllc.com/).
 
-Revenue Ops LLC is a Salesforce consulting partner helping organizations improve the processes, technology, data, and automation that support the entire customer lifecycle.
+Revenue Ops LLC is a Salesforce consulting partner helping organizations improve the processes, technology, data, and automation that support the customer lifecycle.
 
-This repository provides practical frameworks, checklists, templates, and guidance for teams working with Salesforce and Revenue Operations.
+This repository provides practical frameworks, checklists, and guides for Salesforce administrators, Revenue Operations professionals, business leaders, and technology teams.
+
+---
 
 ## About Revenue Ops LLC
 
-[Revenue Ops LLC](https://www.revenueopsllc.com/) provides Salesforce and Revenue Operations consulting, implementation, and managed services.
+[Revenue Ops LLC](https://www.revenueopsllc.com/) helps organizations connect their people, processes, technology, and data to build more effective revenue operations.
 
-We help organizations connect strategy, process, technology, and data to build scalable revenue operations.
+Our services include:
 
-Our work includes:
-
-- Salesforce consulting and implementation
-- Revenue Operations strategy
-- Salesforce optimization
-- CRM architecture and process design
-- Salesforce managed services
-- Marketing automation
-- Data strategy and governance
-- AI and Agentforce
-- Revenue lifecycle design
-- Reporting and analytics
-- Systems integration
-- Business process automation
+- Salesforce Advisory
+- Salesforce Implementation
+- Salesforce Managed Services
+- Revenue Operations Consulting
+- CRM Strategy and Architecture
+- Business Process Design
+- Data and Integration Strategy
+- Reporting and Analytics
+- Business Process Automation
+- Agentforce and AI Strategy
 
 Learn more at **[RevenueOpsLLC.com](https://www.revenueopsllc.com/)**.
 
 ---
 
-## Salesforce Resources
+# Salesforce Resources
 
-Resources for organizations implementing, optimizing, or expanding Salesforce.
+Salesforce should support the way the business operates rather than forcing teams to work around the technology.
 
-### Salesforce Implementation Checklist
+These resources provide practical frameworks for implementing, evaluating, governing, and improving Salesforce environments.
 
-A practical framework for planning a Salesforce implementation, including:
+## Salesforce Implementation Checklist
+
+**[View the Salesforce Implementation Checklist](salesforce/salesforce-implementation-checklist.md)**
+
+A comprehensive framework for planning and executing a Salesforce implementation.
+
+Topics include:
 
 - Business requirements
 - Process discovery
-- CRM architecture
+- Salesforce architecture
+- Data modeling
 - Data migration
-- Integrations
 - Security and permissions
 - Automation
+- Integrations
 - Reporting
+- User experience
 - User acceptance testing
 - Training
 - Deployment
 - Adoption
+- Governance
+- Continuous improvement
 
-[View Salesforce Implementation Resources](https://www.revenueopsllc.com/)
+Use this checklist when planning a new Salesforce implementation, migration, redesign, or major expansion.
 
-### Salesforce Health Check
+---
 
-A Salesforce environment should be evaluated across more than configuration alone.
+## Salesforce Health Check Checklist
 
-A comprehensive health check should consider:
+**[View the Salesforce Health Check Checklist](salesforce/salesforce-health-check.md)**
 
-- Data quality
-- Automation
-- Security
-- User adoption
-- Reporting
-- Integrations
-- Technical debt
+A structured framework for evaluating the current health of a Salesforce environment.
+
+The assessment covers:
+
 - Business process alignment
+- Salesforce adoption
+- Data quality
+- Data architecture
+- Security and permissions
+- Automation
+- Integrations
+- Reports and dashboards
+- User experience
+- Technical debt
 - Documentation
+- Governance
+- AI readiness
 - Platform scalability
 
-The goal is to determine whether Salesforce is supporting the business effectively, not simply whether the technology works.
-
-[Explore Salesforce Consulting from Revenue Ops LLC](https://www.revenueopsllc.com/)
-
-### Salesforce Adoption
-
-Successful CRM adoption requires more than user training.
-
-Organizations should evaluate:
-
-1. Whether Salesforce reflects the way employees actually work.
-2. Whether required information is easy to enter.
-3. Whether users receive value from the information they provide.
-4. Whether unnecessary manual steps can be automated.
-5. Whether managers consistently use Salesforce data.
-6. Whether reporting reinforces the desired processes.
+The objective is to identify issues and translate findings into a prioritized roadmap for improvement.
 
 ---
 
-## Revenue Operations Resources
+# Revenue Operations Resources
 
-Revenue Operations connects the people, processes, technology, and data supporting the customer lifecycle.
+Revenue Operations connects the processes, systems, data, and teams responsible for acquiring, serving, retaining, and growing customers.
 
-A typical revenue lifecycle may include:
+Effective RevOps requires more than implementing technology. Organizations need a clear operating model for how technology supports the customer lifecycle.
 
-**Lead → Qualification → Opportunity → Customer → Delivery → Billing → Payment → Retention → Expansion**
+## Revenue Operations Technology Stack Audit
 
-Effective RevOps programs establish clear ownership, reliable data, consistent processes, and connected technology across this lifecycle.
+**[View the RevOps Technology Stack Audit](revops/revops-tech-stack-audit.md)**
 
-### Revenue Operations Technology Stack Audit
+A practical framework for evaluating the systems, integrations, data, processes, and manual work that make up a Revenue Operations technology environment.
 
-A RevOps technology audit should answer several fundamental questions:
+The audit covers:
 
-- What systems are currently being used?
-- What business process does each system support?
-- Where is customer data stored?
-- Which system is the source of truth?
-- Where is information manually transferred?
-- Where are employees using spreadsheets to bridge system gaps?
-- Which applications have overlapping functionality?
-- Where are integrations missing?
-- Which processes create unnecessary manual work?
-- Where could automation or AI improve execution?
-
-A useful technology strategy starts with the business process and then determines which technology should support it.
-
-[Learn more about Revenue Operations](https://www.revenueopsllc.com/)
-
----
-
-## CRM and Customer Lifecycle
-
-CRM architecture should reflect the actual customer lifecycle rather than forcing the organization to adapt its processes to the software.
-
-A simplified lifecycle might look like:
-
-**Lead → Prospect → Opportunity → Quote → Customer → Delivery → Billing → Payment → Ongoing Relationship**
-
-For each stage, organizations should define:
-
-- Entry criteria
-- Exit criteria
-- Ownership
-- Required data
-- Activities
+- Technology inventory
+- Customer lifecycle mapping
+- Systems of record
+- Manual data movement
+- Integrations
+- Application overlap
+- CRM architecture
+- Data quality
+- Reporting
 - Automation
-- Exceptions
-- Reporting requirements
-- Handoffs between teams
+- AI readiness
+- Technology costs
+- Technology risk
+- Future-state architecture
+- Prioritization
 
-This creates the foundation for scalable CRM architecture.
-
----
-
-## Automation
-
-Good automation removes unnecessary work while maintaining appropriate human oversight.
-
-A common automation pattern is:
-
-**Business Event → Validation → Automation → Exception Handling → Human Review → System Update**
-
-Before automating a process, document:
-
-- What triggers the process?
-- What information is required?
-- What decisions are made?
-- Which decisions are deterministic?
-- What exceptions can occur?
-- When is human approval required?
-- What systems need to be updated?
-- What should happen when automation fails?
-
-Automating a poorly defined process usually creates a faster poorly defined process.
+The framework can help organizations move from disconnected applications and manual processes toward a connected and governed technology environment.
 
 ---
 
-## Data and Reporting
+# Agentforce and AI Resources
 
-Reliable reporting begins with reliable operational data.
+AI becomes significantly more useful when it operates within well-defined business processes and has access to reliable, governed information.
 
-A mature reporting architecture typically progresses through:
+Organizations considering Salesforce Agentforce should evaluate their business processes, data, integrations, security, governance, and measurement strategy before attempting to scale autonomous agents.
+
+## Salesforce Agentforce Readiness Checklist
+
+**[View the Salesforce Agentforce Readiness Checklist](agentforce/agentforce-readiness-checklist.md)**
+
+A practical framework for evaluating whether an organization is ready to implement Salesforce Agentforce.
+
+The checklist covers:
+
+- Business use-case definition
+- Process documentation
+- Data readiness
+- Knowledge sources
+- Salesforce data architecture
+- Integrations
+- Agent actions
+- Human-in-the-loop requirements
+- Security and permissions
+- Guardrails
+- Exception management
+- AI governance
+- Success metrics
+- Testing
+- Controlled deployment
+
+The goal is not maximum autonomy.
+
+The goal is the appropriate level of autonomy for the business process, risk, and desired outcome.
+
+---
+
+# Data and Governance Resources
+
+Reliable Revenue Operations, reporting, automation, and AI all depend on trustworthy data.
+
+Data governance establishes how information is created, maintained, protected, shared, and used across the organization.
+
+## Data Governance Checklist for Salesforce and Revenue Operations
+
+**[View the Data Governance Checklist](data/data-governance-checklist.md)**
+
+A practical framework for establishing and improving data governance across Salesforce and connected Revenue Operations systems.
+
+Topics include:
+
+- Critical data domains
+- Systems of record
+- Data ownership
+- Data standards
+- Required information
+- Data quality
+- Duplicate prevention
+- Data imports
+- Integration governance
+- Security
+- Data lifecycle management
+- KPI governance
+- Data quality monitoring
+- Change governance
+- AI and Agentforce readiness
+- Cross-functional governance
+
+The framework is designed to help organizations move toward trusted data, consistent metrics, automated reporting, and AI-assisted decision support.
+
+---
+
+# CRM and Customer Lifecycle
+
+A CRM should provide more than a database of accounts and contacts.
+
+It should support the complete customer lifecycle.
+
+A typical lifecycle might look like:
+
+**Lead → Qualification → Opportunity → Quote → Customer → Delivery → Billing → Payment → Retention → Expansion**
+
+Organizations should be able to identify:
+
+- Which team owns each stage
+- Which system supports each stage
+- What information is required
+- Where handoffs occur
+- Which processes are automated
+- Which activities remain manual
+- How performance is measured
+
+A well-designed Salesforce environment provides a connected view of the customer relationship while allowing specialized systems to support functions where appropriate.
+
+---
+
+# Automation
+
+Automation should reduce unnecessary manual work while maintaining appropriate controls and human oversight.
+
+Common automation opportunities include:
+
+- Record creation
+- Data validation
+- Lead routing
+- Opportunity management
+- Notifications
+- Approvals
+- Customer handoffs
+- Task creation
+- Data synchronization
+- Exception management
+- Reporting
+- Follow-up activities
+
+A useful principle is:
+
+**Simplify → Standardize → Automate → Measure → Improve**
+
+Automating an unclear or inefficient process usually creates a faster version of the same problem.
+
+---
+
+# Data and Reporting
+
+Reliable reporting requires more than dashboards.
+
+Organizations need:
 
 **Trusted Data → Consistent Metrics → Automated Reporting → Proactive Analytics → AI-Assisted Decision Support**
 
-Organizations should establish:
+A strong reporting environment should establish:
 
 - Systems of record
 - Data ownership
-- Standard definitions
-- Data quality requirements
-- Integration rules
 - KPI definitions
-- Reporting governance
+- Data quality standards
+- Integration architecture
+- Reporting ownership
+- Governance
 
-AI and advanced analytics become significantly more valuable once this foundation exists.
-
----
-
-## AI and Agentforce
-
-AI should be implemented around specific business processes and use cases rather than treated as a standalone technology initiative.
-
-Before implementing Salesforce Agentforce or another AI solution, evaluate:
-
-### Data
-
-- Is the necessary information available?
-- Is the data accurate?
-- Can the AI access the correct information?
-- Are permissions appropriately configured?
-
-### Process
-
-- Is the underlying business process documented?
-- Are decision points understood?
-- Are exceptions identified?
-- Is ownership clear?
-
-### Governance
-
-- What actions can AI take?
-- Which actions require human approval?
-- How will activity be monitored?
-- How will errors be handled?
-
-### Measurement
-
-Define what success looks like before deployment.
-
-Possible measures include:
-
-- Time saved
-- Response time
-- Automation rate
-- Exception rate
-- User adoption
-- Customer satisfaction
-- Revenue impact
-- Cost reduction
-
-[Explore Salesforce, AI, and Revenue Operations insights](https://www.revenueopsllc.com/resources/)
+The objective is to reduce the amount of time employees spend collecting and reconciling information and increase the amount of time they spend using information to make decisions.
 
 ---
 
-## Integration Strategy
+# Integration Strategy
 
-Integrations should support clearly defined business processes and data ownership.
+Modern Revenue Operations environments frequently require multiple specialized platforms.
 
-A common architecture uses Salesforce as the customer and commercial hub while specialized applications continue performing the functions they do best.
+The goal should not necessarily be to move every business function into a single application.
 
-Instead of:
+Instead, organizations should establish:
+
+- Clear systems of record
+- Governed integrations
+- Reliable data synchronization
+- Monitoring and error handling
+- Appropriate security
+- Centralized customer context
+
+A common future-state pattern is:
+
+**Business Systems → Governed Integration → Salesforce / Customer Hub → Governed Data → Reporting, Analytics and AI**
+
+This replaces architectures that depend heavily on employees manually transferring information:
 
 **System A → Employee → Spreadsheet → Employee → System B**
 
-Organizations should work toward:
+with:
 
 **System A → Governed Integration → System B**
 
-This reduces manual data movement and creates more reliable information across the organization.
+---
+
+# AI and Agentforce
+
+AI should be treated as part of the broader business and technology architecture.
+
+Before deploying AI into a process, organizations should understand:
+
+1. What business problem are we solving?
+2. What process does AI support?
+3. What information does AI need?
+4. Can that information be trusted?
+5. What actions should AI be allowed to perform?
+6. Which actions require human approval?
+7. How are exceptions handled?
+8. How will performance be measured?
+
+The foundation for effective AI is not simply access to an AI model.
+
+It is the combination of:
+
+**Process + Data + Context + Actions + Governance + Measurement**
 
 ---
 
-## Repository Resources
+# Repository Resources
 
-This repository will include practical resources covering:
+Use the links below to access the current Revenue Ops LLC open resources.
 
-### Salesforce
+| Resource | Area |
+| --- | --- |
+| [Salesforce Implementation Checklist](salesforce/salesforce-implementation-checklist.md) | Salesforce Implementation |
+| [Salesforce Health Check Checklist](salesforce/salesforce-health-check.md) | Salesforce Optimization |
+| [Revenue Operations Technology Stack Audit](revops/revops-tech-stack-audit.md) | Revenue Operations |
+| [Salesforce Agentforce Readiness Checklist](agentforce/agentforce-readiness-checklist.md) | Agentforce and AI |
+| [Data Governance Checklist](data/data-governance-checklist.md) | Data Governance |
 
-- Salesforce implementation checklist
-- Salesforce health check
-- Salesforce adoption checklist
-- CRM requirements template
-- Salesforce data governance checklist
-
-### Revenue Operations
-
-- RevOps technology stack audit
-- Customer lifecycle framework
-- Revenue process documentation template
-- Systems inventory template
-- KPI framework
-
-### AI and Agentforce
-
-- Agentforce readiness checklist
-- AI use-case assessment
-- AI governance checklist
-- Data readiness framework
-- Human-in-the-loop design framework
-
-### Data and Automation
-
-- Data governance checklist
-- Integration assessment
-- Automation assessment
-- Reporting requirements template
-- System-of-record framework
-
-New resources will be added over time.
+New resources and updates will be added over time.
 
 ---
 
-## Work With Revenue Ops LLC
+# Work With Revenue Ops LLC
 
-Need help implementing Salesforce or improving your Revenue Operations environment?
+These resources are designed to help organizations identify opportunities to improve Salesforce and Revenue Operations.
 
-Revenue Ops LLC provides:
+For organizations that need help assessing, designing, implementing, or optimizing their environment, [Revenue Ops LLC](https://www.revenueopsllc.com/) provides Salesforce and Revenue Operations consulting services.
 
-- **Advisory Services**
-- **Salesforce Implementation**
-- **Managed Services**
+We help organizations with:
 
-We work with organizations to improve Salesforce, Revenue Operations, automation, data, reporting, integrations, and AI strategy.
+- Salesforce strategy
+- Salesforce implementations
+- Salesforce optimization
+- Salesforce health checks
+- Revenue Operations assessments
+- Technology stack audits
+- CRM architecture
+- Data governance
+- Integrations
+- Reporting and analytics
+- Process automation
+- Agentforce and AI
+- Managed Salesforce services
 
-### Visit Revenue Ops LLC
+Visit **[RevenueOpsLLC.com](https://www.revenueopsllc.com/)** to learn more.
 
-**Website:** [https://www.revenueopsllc.com/](https://www.revenueopsllc.com/)
-
-**Resources:** [Revenue Operations and Salesforce Resources](https://www.revenueopsllc.com/resources/)
+You can also explore additional articles, guides, and insights in the **[Revenue Ops LLC Resource Center](https://www.revenueopsllc.com/resources/)**.
 
 ---
 
-## Contributing
+# Contributing
 
-Suggestions and contributions that improve these resources are welcome.
+Suggestions and improvements are welcome.
 
-If you identify an issue, have a recommendation, or would like to suggest a new resource, open an issue in this repository.
+If you identify an issue or have an idea for an additional Salesforce or Revenue Operations resource, please open an issue in this repository.
 
 ---
 
-## About This Repository
+# About This Repository
 
-These resources are maintained by [Revenue Ops LLC](https://www.revenueopsllc.com/) and are intended to provide practical guidance for Salesforce administrators, Revenue Operations professionals, business leaders, and organizations working to improve their revenue technology environments.
+This repository is maintained by [Revenue Ops LLC](https://www.revenueopsllc.com/).
 
-For additional Salesforce and Revenue Operations guidance, visit [RevenueOpsLLC.com](https://www.revenueopsllc.com/).
+The resources are intended to provide practical guidance for Salesforce administrators, Revenue Operations professionals, business leaders, consultants, and technology teams working to improve CRM, data, automation, reporting, integrations, and AI capabilities.
